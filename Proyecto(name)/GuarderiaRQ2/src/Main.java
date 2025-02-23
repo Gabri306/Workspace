@@ -54,7 +54,7 @@ public class Main {
                 case "4":
                     ArrayList<Nino> ninosMayores5 = guarderia.ninosMayores5();
                     if (ninosMayores5.isEmpty()) {
-                        JOptionPane.showMessageDialog(null, "Pene");
+                        JOptionPane.showMessageDialog(null, "No hay niños para mostrar");
                     }
                     for (Nino ninoMayor : ninosMayores5) {
                         JOptionPane.showMessageDialog(null, ninoMayor.toString());
